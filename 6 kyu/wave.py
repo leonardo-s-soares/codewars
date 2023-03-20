@@ -41,6 +41,3 @@ def wave(people):
             word = people[:index] + people[index].upper() + people[index+1:]
             result.append(word)
     return result
-
-
-print(wave('hello'))
